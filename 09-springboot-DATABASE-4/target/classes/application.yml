@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 09-springboot-DATABASE-4
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: system
+    url: jdbc:oracle:thin:@localhost:1521/xe
+    username: system
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
